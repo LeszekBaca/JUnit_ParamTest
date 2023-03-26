@@ -1,11 +1,11 @@
 package org.example;
 
 public enum RangeValue {
-    CAR_MILLAGE(0, 100),
+    MILLAGE(0, 100),
 
-    FUEL_USAGE(0, 10),
+    FUEL(0, 10),
 
-    TREAD_THICKNESS(4, 1000);
+    TREAD(4, 1000);
 
     private Integer minValue;
     private Integer maxValue;

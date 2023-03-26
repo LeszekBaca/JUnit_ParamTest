@@ -10,10 +10,10 @@ public class AutoServiceImpl {
 
             throw new IllegalArgumentException("Car details  null");
         }
-        boolean isMillageCorrect = isCorrect(carMillage, RangeValue.CAR_MILLAGE);
-        boolean isFuelUsageCorrect = isCorrect(fuelUsage, RangeValue.FUEL_USAGE);
+        boolean isMillageCorrect = isCorrect(carMillage, RangeValue.MILLAGE);
+        boolean isFuelUsageCorrect = isCorrect(fuelUsage, RangeValue.FUEL);
 
-        boolean isTreadThicknessCorrect = isCorrect(treadThickness, RangeValue.TREAD_THICKNESS);
+        boolean isTreadThicknessCorrect = isCorrect(treadThickness, RangeValue.TREAD);
         if (isMillageCorrect && isFuelUsageCorrect && isTreadThicknessCorrect) {
 
             return true;
