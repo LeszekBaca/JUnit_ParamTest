@@ -13,7 +13,7 @@ public class CalculatorServiceImplTest {
     private CalculatorServiceImpl calcuatorService;
 
     @BeforeEach
-    void befreEeach() {
+    void beforeEeach() {
         calcuatorService = new CalculatorServiceImpl();
     }
 
